@@ -11,6 +11,9 @@ EOF
 
 pkg update && pkg upgrade -y
 pkg install git -y
+termux-setup-storage
+cd storage
+cd downloads
 git clone https://github.com/ARM331177/ytdownload.git
 cd ytdownload
 pip install yt-dlp
