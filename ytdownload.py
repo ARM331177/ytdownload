@@ -1,6 +1,7 @@
 from yt_dlp import YoutubeDL
 from yt_dlp.utils import DownloadError
 
+FFMPEG_LOCATION = "/data/data/com.termux/files/usr/bin"
 
 def format_size(bytes_value):
     """Convert bytes to readable format."""
