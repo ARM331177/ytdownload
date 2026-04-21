@@ -12,7 +12,7 @@ later allow instructions
 For start later:
 cd storage |
 cd downloads |
-cd ytdownloadertermux
+cd ytdownloadertermux |
 python ytdownload.py
 
 Enjoy!
